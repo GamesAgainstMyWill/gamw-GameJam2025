@@ -1,0 +1,1 @@
+Redrew Alfred in 48 x 80, redrew walking animation

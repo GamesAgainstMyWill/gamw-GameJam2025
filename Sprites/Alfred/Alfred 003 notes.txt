@@ -1,0 +1,1 @@
+Arm removed, walking animation added
