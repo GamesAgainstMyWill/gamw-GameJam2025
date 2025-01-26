@@ -1,0 +1,206 @@
+[gd_scene load_steps=19 format=4 uid="uid://dwv7smth6sa64"]
+
+[ext_resource type="Script" path="res://Scripts/room.gd" id="1_kw4vc"]
+[ext_resource type="Texture2D" uid="uid://jv4vc8u2yuaj" path="res://Sprites/Waterfront_Tiles 16x16 001.png" id="1_ph2hv"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_iwfch"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_32pjs"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_o6a5j"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_gh3g5"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_f83ma"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_xit84"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_srf2c"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_02iq8"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_2dojm"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_wsdb3"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_id6ow"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_388nv"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_35go8"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_pw4y0"]
+vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
+polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)])
+agent_radius = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dsxbq"]
+texture = ExtResource("1_ph2hv")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -3.5, -2.625, -2.75, -4.125, 8, -8, 8)
+0:0/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_iwfch")
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -3.5, -8, -3.75)
+1:0/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_srf2c")
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, 4.625, 8, 3.875, -4.25, -8, -3.75)
+2:0/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_id6ow")
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -8, 8, 8, 4.625, 8, 4.875, -8)
+2:1/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_388nv")
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -8, 8, 8, -8, 8, -8, 4, 4.125, 3.5, 4.875, -8)
+2:2/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_35go8")
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -8, 8, -8, 4, 8, 3.5)
+1:2/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_02iq8")
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 8, -8, 8, -8, -8, -4.375, -8, -3.625, 3.75, 8, 3.5)
+0:2/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_o6a5j")
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 8, -8, -8, -4.375, -8, -3.625, 8)
+0:1/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_32pjs")
+1:3/0 = 0
+1:3/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_2dojm")
+2:3/0 = 0
+2:3/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_pw4y0")
+0:3/0 = 0
+0:3/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_gh3g5")
+0:4/0 = 0
+0:4/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_f83ma")
+1:4/0 = 0
+1:4/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_wsdb3")
+0:5/animation_columns = 4
+0:5/animation_frame_0/duration = 1.0
+0:5/animation_frame_1/duration = 1.0
+0:5/animation_frame_2/duration = 1.0
+0:5/animation_frame_3/duration = 1.0
+0:5/0 = 0
+0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 3, 8, 3, 8, 8, -8, 8)
+0:5/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_xit84")
+0:6/0 = 0
+0:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:7/0 = 0
+0:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:8/0 = 0
+0:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:9/0 = 0
+0:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:7/0 = 0
+1:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:8/0 = 0
+1:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:9/0 = 0
+1:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:7/0 = 0
+2:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:8/0 = 0
+2:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:9/0 = 0
+2:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_mml33"]
+physics_layer_0/collision_layer = 1
+navigation_layer_0/layers = 1
+sources/2 = SubResource("TileSetAtlasSource_dsxbq")
+
+[node name="Room" type="Node2D"]
+script = ExtResource("1_kw4vc")
+
+[node name="Base" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAAAAAAAgAAAAAAAAABAAAAAgABAAAAAAACAAAAAgABAAAAAAADAAAAAgABAAAAAAAHAAAAAgABAAAAAAAIAAAAAgABAAAAAAAJAAAAAgABAAAAAAAKAAAAAgACAAAAAAAKAAEAAgACAAEAAAAKAAIAAgACAAEAAAAKAAMAAgACAAEAAAAKAAcAAgACAAEAAAAKAAgAAgACAAEAAAAKAAkAAgACAAEAAAAAAAkAAgAAAAEAAAAAAAgAAgAAAAEAAAAAAAcAAgAAAAEAAAAAAAMAAgAAAAEAAAAAAAIAAgAAAAEAAAAAAAEAAgAAAAEAAAABAAEAAgAAAAMAAAACAAEAAgAAAAMAAAADAAEAAgAAAAMAAAADAAIAAgAAAAMAAAADAAMAAgAAAAMAAAADAAQAAgACAAMAAAAEAAQAAgAAAAMAAAAEAAUAAgAAAAMAAAAFAAUAAgAAAAMAAAAGAAUAAgAAAAMAAAAHAAUAAgAAAAMAAAAHAAYAAgAAAAMAAAAHAAcAAgAAAAMAAAAIAAcAAgAAAAMAAAAIAAgAAgAAAAMAAAAJAAgAAgACAAMAAAAJAAkAAgAAAAMAAAAIAAkAAgAAAAMAAAAHAAkAAgAAAAMAAAAHAAgAAgACAAMAAAAGAAgAAgAAAAMAAAACAAgAAgACAAMAAAADAAUAAgACAAMAAAAFAAMAAgACAAMAAAAJAAIAAgACAAMAAAAIAAUAAgACAAMAAAAJAAYAAgABAAMAAAAJAAcAAgABAAMAAAAIAAYAAgABAAMAAAAKAAYAAgABAAMAAAAKAAUAAgABAAMAAAAKAAQAAgABAAMAAAAJAAQAAgABAAMAAAAJAAUAAgABAAMAAAAIAAQAAgABAAMAAAAIAAMAAgABAAMAAAAJAAMAAgABAAMAAAAIAAIAAgABAAMAAAAIAAEAAgABAAMAAAAJAAEAAgABAAMAAAAHAAEAAgABAAMAAAAGAAEAAgABAAMAAAAFAAEAAgABAAMAAAAEAAEAAgABAAMAAAAEAAAAAgABAAMAAAAFAAAAAgABAAMAAAAGAAAAAgABAAMAAAAGAAIAAgABAAMAAAAGAAMAAgABAAMAAAAHAAMAAgABAAMAAAAHAAIAAgABAAMAAAAHAAQAAgABAAMAAAAGAAQAAgABAAMAAAAFAAQAAgABAAMAAAAEAAIAAgABAAMAAAAFAAIAAgABAAMAAAAEAAMAAgABAAMAAAACAAIAAgACAAMAAAABAAIAAgABAAMAAAABAAMAAgABAAMAAAACAAMAAgABAAMAAAABAAQAAgABAAMAAAAAAAQAAgABAAMAAAAAAAUAAgABAAMAAAABAAUAAgABAAMAAAACAAUAAgABAAMAAAACAAQAAgABAAMAAAACAAYAAgABAAMAAAABAAYAAgABAAMAAAAAAAYAAgABAAMAAAADAAYAAgABAAMAAAAEAAYAAgABAAMAAAAFAAYAAgABAAMAAAAGAAYAAgABAAMAAAAGAAcAAgABAAMAAAAFAAcAAgABAAMAAAAEAAcAAgABAAMAAAADAAcAAgABAAMAAAACAAcAAgABAAMAAAABAAcAAgABAAMAAAABAAgAAgABAAMAAAABAAkAAgABAAMAAAACAAkAAgABAAMAAAADAAkAAgACAAMAAAADAAgAAgABAAMAAAAEAAgAAgACAAMAAAAFAAgAAgABAAMAAAAEAAkAAgABAAMAAAAFAAkAAgABAAMAAAAGAAkAAgABAAMAAAABAAoAAgABAAIAAAACAAoAAgABAAIAAAADAAoAAgABAAIAAAAEAAoAAgAAAAMAAAAFAAoAAgACAAMAAAAGAAoAAgABAAMAAAAHAAoAAgABAAIAAAAIAAoAAgABAAIAAAAJAAoAAgABAAIAAAAKAAoAAgACAAIAAAAAAAoAAgAAAAIAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="WestWall" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAAAAQAAgAAAAEAAAAAAAUAAgAAAAEAAAAAAAYAAgAAAAEAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="NorthWall" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAEAAAAAgABAAAAAAAFAAAAAgABAAAAAAAGAAAAAgABAAAAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="EastWall" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAKAAQAAgACAAEAAAAKAAUAAgACAAEAAAAKAAYAAgACAAEAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="SouthWall" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAGAAoAAgABAAIAAAAFAAoAAgABAAIAAAAEAAoAAgABAAIAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="NorthDoor" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAGAP//AgACAAEAAAAGAP7/AgACAAEAAAAEAP7/AgAAAAEAAAAFAP//AgAAAAMAAAAFAP7/AgABAAMAAAAEAP//AgAAAAEAAAAGAP3/AgACAAEAAAAEAP3/AgAAAAEAAAAFAP3/AgAAAAMAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="EastDoor" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAALAAQAAgABAAAAAAAMAAQAAgABAAAAAAALAAUAAgABAAMAAAAMAAUAAgABAAMAAAALAAYAAgABAAIAAAAMAAYAAgABAAIAAAANAAQAAgABAAAAAAANAAYAAgABAAIAAAANAAUAAgAAAAMAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="SouthDoor" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAGAAsAAgACAAEAAAAGAAwAAgACAAEAAAAEAAsAAgAAAAEAAAAEAAwAAgAAAAEAAAAFAAsAAgAAAAMAAAAFAAwAAgABAAMAAAAGAA0AAgACAAEAAAAEAA0AAgAAAAEAAAAFAA0AAgACAAMAAAA=")
+tile_set = SubResource("TileSet_mml33")
+
+[node name="WestDoor" type="TileMapLayer" parent="."]
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAGAAsAAgACAAEAAAAGAAwAAgACAAEAAAAEAAsAAgAAAAEAAAAEAAwAAgAAAAEAAAAFAAsAAgAAAAMAAAAFAAwAAgABAAMAAAD//wQAAgABAAAAAAD+/wQAAgABAAAAAAD//wYAAgABAAIAAAD+/wYAAgABAAIAAAD+/wUAAgAAAAMAAAD//wUAAgACAAMAAAD9/wQAAgABAAAAAAD9/wUAAgABAAMAAAD9/wYAAgABAAIAAAA=")
+tile_set = SubResource("TileSet_mml33")
