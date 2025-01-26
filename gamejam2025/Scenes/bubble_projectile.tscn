@@ -75,7 +75,7 @@ script = ExtResource("1_pwybm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(33, -6)
+position = Vector2(51, -7)
 sprite_frames = SubResource("SpriteFrames_oeqy3")
 animation = &"bubble_float"
 
